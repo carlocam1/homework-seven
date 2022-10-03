@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+.site-container {
+    max-width: 1280px;
+    min-height: 500px;
+    // background-color: bisque;
+}
+
+@media only screen and (max-width: 660px) {
+    .site-container {
+    background-image:
+         linear-gradient( #79ADDC,#fff, #79ADDC, #fff);
+    }
+}
+
+@font-face {
+    font-family: GillSans;
+    src: url(../css/fonts/GillSans.ttc);
+}
+
+@font-face {
+    font-family: GillSans-Light;
+    src: url(../css/fonts/GillSans-Light.ttf);
+}
+
+
+@font-face {
+    font-family: ProximaNovaScOsfExtraCondensed;
+    src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Thin;
+    src: url(../css/fonts/Proxima-Nova-Thin.otf);
+}
+
+@font-face {
+    font-family: Proxima-Nova-Regular;
+    src: url(../css/fonts/Proxima-Nova-Regular.ttf);
+}
+
